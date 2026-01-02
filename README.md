@@ -30,11 +30,11 @@ A cyberpunk-themed drum machine.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/ashishkausha/YOUR_REPO_NAME.git](https://github.com/ashishkausha/my-cool-projects.git)
     ```
 2.  Navigate to the folder:
     ```bash
-    cd YOUR_REPO_NAME
+    cd my-cool-projects
     ```
 3.  Install dependencies:
     ```bash
@@ -46,4 +46,4 @@ A cyberpunk-themed drum machine.
     ```
 
 ---
-*Happy Hacking!* 👨‍💻
+
