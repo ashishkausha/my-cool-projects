@@ -1,0 +1,80 @@
+/* 1. Global Reset & Dark Theme */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0f172a; /* Deep dark blue/slate */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/* 2. Floating Glass Navigation Bar */
+.nav-bar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the bar exactly */
+  
+  display: flex;
+  gap: 15px;
+  padding: 10px 15px;
+  
+  /* The Glass Effect */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  
+  z-index: 9999; /* Ensures it floats above everything else */
+}
+
+/* 3. The Buttons */
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: #e8ecf2; /* Muted text color */
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* 4. Active State (The Glowing Effect) */
+.nav-btn.active {
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #a855f7); /* Purple/Indigo Gradient */
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5); /* Glowing shadow */
+}
+
+/* 5. Content Animation (Smooth Fade In) */
+.content-area {
+  animation: fadeIn 0.6s ease-out forwards;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
