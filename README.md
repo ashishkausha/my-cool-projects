@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 🚀 React Mini-Apps Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collection of interactive web applications built with **React.js**, showcasing modern UI/UX design trends like **Glassmorphism** and **Neumorphism**.
 
-## Available Scripts
+## 🌟 Projects Included
 
-In the project directory, you can run:
+### 1. 🌌 Space Quote Generator
+A clean, aesthetic quote generator featuring a video background and glass-like UI.
+* **Features:** Fetches data from an API, Text-to-Speech (reads quotes aloud), Copy to Clipboard, and social sharing.
+* **Design:** White card aesthetic floating over a looped space video.
 
-### `npm start`
+### 2. 🧮 Neumorphic Calculator
+A fully functional calculator designed with "Soft UI" (Neumorphism).
+* **Features:** Keyboard support (type numbers/enter), standard math operations, and backspace logic.
+* **Design:** Solid 3D-style buttons floating in a space environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. 🥁 Neon Sound Pad
+A cyberpunk-themed drum machine.
+* **Features:** Plays audio beats on click or keypress.
+* **Design:** Glowing neon buttons and dark mode aesthetics.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
+* **Library:** React JS (Hooks: `useState`, `useEffect`)
+* **Styling:** CSS3 (Flexbox, Grid, Animations, Backdrop Filter)
+* **Assets:** HTML5 Video, SVG Icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 How to Run Locally
 
-### `npm run build`
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```
+2.  Navigate to the folder:
+    ```bash
+    cd YOUR_REPO_NAME
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the app:
+    ```bash
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Happy Hacking!* 👨‍💻
